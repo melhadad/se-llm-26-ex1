@@ -1,0 +1,19 @@
+{
+  "name": "basic-calculator",
+  "version": "1.0.0",
+  "description": "Simple calculator with unit tests",
+  "main": "calc-core.js",
+  "scripts": {
+    "test": "jest --watchAll=false"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+  ,
+  "overrides": {
+    "test-exclude": "7.0.1"
+  }
+}
